@@ -1,0 +1,16 @@
+###############################################################
+# Configuration file for Bochs
+###############################################################
+
+# how much memory the emulated machine will have
+megs: 16
+
+romimage: file="C:\Program Files (x86)\Bochs-2.5/BIOS-bochs-latest"
+vgaromimage: file="C:\Program Files (x86)\Bochs-2.5/VGABIOS-lgpl-latest"
+
+floppya: 1_44=nl.img, status=inserted
+
+boot: a
+
+mouse: enabled=0, type=ps2, toggle=ctrl+mbutton
+
